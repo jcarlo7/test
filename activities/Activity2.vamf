@@ -1,0 +1,20 @@
+{
+	"name": "Activity2",
+	"shortDescription": "Activity2",
+	"descriptionMarkdown": "activity.md",
+	"priority":2,
+	"topology": [
+	
+		{
+			"name": "Abs Topo",
+			"addRepositoryNamePrefix": "false",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation  ",
+			"reservationDuration": "60",
+			"automation": [
+				
+				      ]
+		
+		}
+		   ]
+}

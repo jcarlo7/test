@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testCase version="9.3.0.202302140019">
+    <general>
+        <tags>tag2,tag3,featuretest7,E-5GC</tags>
+        <language>Python</language>
+        <xPathVersion>XPATH31</xPathVersion>
+    </general>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="35c3f59b-91e4-4263-be7e-5ddd05f4a7df" action="comment" useFieldsInCommand="false">
+                    <command>
+                        <body>tc2</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="b78f8c4b-17ed-4c3e-a0e1-ff5d4b12e23b" action="sleep">
+                    <command>
+                        <body>5</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
